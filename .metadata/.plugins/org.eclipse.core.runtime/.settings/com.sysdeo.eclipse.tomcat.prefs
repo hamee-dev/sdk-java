@@ -1,0 +1,6 @@
+computeSourcePath=true
+contextsDir=C\:\\nogi\\tool\\apache-tomcat-6.0.41\\conf\\Catalina\\localhost
+eclipse.preferences.version=1
+tomcatConfigFile=C\:\\nogi\\tool\\apache-tomcat-6.0.41\\conf\\server.xml
+tomcatDir=C\:\\nogi\\tool\\apache-tomcat-6.0.41
+tomcatVersion=tomcatV6
