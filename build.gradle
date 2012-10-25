@@ -1,0 +1,17 @@
+plugins {
+    id 'java-library'
+}
+
+jar.baseName = 'ne-java-sdk'
+version = '1.1'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'javax.servlet:servlet-api:2.5'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.2.3'
+}
+repositories {
+    jcenter()
+}
