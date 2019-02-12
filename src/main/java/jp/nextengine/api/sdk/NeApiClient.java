@@ -328,6 +328,7 @@ public class NeApiClient {
      */
     public HashMap<String, Object> apiExecuteNoRequiredLogin(String path, HashMap<String, String> api_params) throws IOException {
         api_params.put(KEY_CLIENT_ID, this._client_id);
+        api_params.put(KEY_CLIENT_SECRET, this._client_secret);
 
         return this.post(getServerHostApi() + path, api_params);
     }
